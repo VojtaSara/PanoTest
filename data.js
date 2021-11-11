@@ -2,7 +2,7 @@ var APP_DATA = {
   "scenes": [
     {
       "id": "0-balkon",
-      "name": "balkon",
+      "name": "Balkón",
       "levels": [
         {
           "tileSize": 256,
@@ -50,7 +50,7 @@ var APP_DATA = {
     },
     {
       "id": "1-chodba1",
-      "name": "chodba1",
+      "name": "Chodba",
       "levels": [
         {
           "tileSize": 256,
@@ -116,7 +116,7 @@ var APP_DATA = {
     },
     {
       "id": "2-chodba2",
-      "name": "chodba2",
+      "name": "Vstupní dveře",
       "levels": [
         {
           "tileSize": 256,
@@ -170,7 +170,7 @@ var APP_DATA = {
     },
     {
       "id": "3-koupelna",
-      "name": "koupelna",
+      "name": "Koupelna",
       "levels": [
         {
           "tileSize": 256,
@@ -212,7 +212,7 @@ var APP_DATA = {
     },
     {
       "id": "4-kuchyn",
-      "name": "kuchyn",
+      "name": "Kuchyně",
       "levels": [
         {
           "tileSize": 256,
@@ -254,7 +254,7 @@ var APP_DATA = {
     },
     {
       "id": "5-obyvak",
-      "name": "obyvak",
+      "name": "Obývací pokoj",
       "levels": [
         {
           "tileSize": 256,
@@ -302,7 +302,7 @@ var APP_DATA = {
     },
     {
       "id": "6-pokoj1",
-      "name": "pokoj1",
+      "name": "První ložnice",
       "levels": [
         {
           "tileSize": 256,
@@ -350,7 +350,7 @@ var APP_DATA = {
     },
     {
       "id": "7-pokoj2",
-      "name": "pokoj2",
+      "name": "Druhá ložnice",
       "levels": [
         {
           "tileSize": 256,
@@ -398,7 +398,7 @@ var APP_DATA = {
     },
     {
       "id": "8-zachod",
-      "name": "zachod",
+      "name": "Toaleta",
       "levels": [
         {
           "tileSize": 256,
@@ -439,7 +439,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Panorama - Písečná",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
