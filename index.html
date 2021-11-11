@@ -1,57 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Panorama test</title>
+<title>Project Title</title>
 <meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> @-ms-viewport { width: device-width; } </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="single-scene ">
+<body class="multiple-scenes ">
 
 <div id="pano"></div>
 
 <div id="sceneList">
   <ul class="scenes">
     
-      <a href="javascript:void(0)" class="scene" data-id="0-zachod-custom">
-        
-       <li class="text">Pano zachod</li> 
-         
+      <a href="javascript:void(0)" class="scene" data-id="0-balkon">
+        <li class="text">balkon</li>
       </a>
-  
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-chodba1">
+        <li class="text">chodba1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-chodba2">
+        <li class="text">chodba2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-koupelna">
+        <li class="text">koupelna</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-kuchyn">
+        <li class="text">kuchyn</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-obyvak">
+        <li class="text">obyvak</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-pokoj1">
+        <li class="text">pokoj1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-pokoj2">
+        <li class="text">pokoj2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-zachod">
+        <li class="text">zachod</li>
+      </a>
+    
   </ul>
 </div>
 
 <div id="titleBar">
-  <!--- odstraneni horni listy
   <h1 class="sceneName"></h1>
-  --->
 </div>
 
-
 <a href="javascript:void(0)" id="autorotateToggle">
-  <!--- odstraneni autorotatoru
   <img class="icon off" src="img/play.png">
   <img class="icon on" src="img/pause.png">
-  --->
 </a>
 
-
 <a href="javascript:void(0)" id="fullscreenToggle">
-  <!--- odstraneni autorotatoru
   <img class="icon off" src="img/fullscreen.png">
   <img class="icon on" src="img/windowed.png">
-  --->
 </a>
 
 <a href="javascript:void(0)" id="sceneListToggle">
-  
-  <!--- odstraneni autorotatoru
   <img class="icon off" src="img/expand.png">
   <img class="icon on" src="img/collapse.png">
-  --->
 </a>
 
 <a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
